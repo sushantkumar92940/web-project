@@ -1,0 +1,339 @@
+.me {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("bg5.jpg");
+  background-size: 100%;
+}
+
+nav {
+  display: flex;
+  width: 84%;
+  margin: auto;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav ul li a {
+  font-size: 130%;
+  text-decoration: none;
+  color: rgb(238, 20, 30);
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: rgb(25, 0, 255);
+}
+
+.me1 {
+  margin-left: 8%;
+  margin-top: 13%;
+}
+
+.me1 h1 {
+  font-size: 50px;
+  color: rgb(243, 243, 245);
+  margin-bottom: 20px;
+}
+
+span {
+  color: rgb(44, 65, 250);
+}
+
+.me1 p {
+  color: rgb(236, 238, 111);
+  font-size: 115%;
+  line-height: 22px;
+}
+
+.me1 a {
+  background: rgb(255, 0, 0);
+  padding: 10px 18px;
+  font-size: 105%;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(244, 242, 248);
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 10%;
+}
+
+.mypic {
+  width: 45%;
+  height: 80%;
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+}
+
+.mypic img {
+  height: 90%;
+  position: absolute;
+  left: 65%;
+  bottom: 0;
+  transform: translateX(-50%);
+  transition: bottom 1s, left 1s;
+}
+
+.mypic:hover .shape {
+  bottom: 110px;
+}
+
+.mypic:hover .my {
+  left: 50%;
+}
+
+.me2 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  color: rgb(221, 181, 70);
+  text-align: center;
+  font-size: 450%;
+  background-image: url("bg14.jpg");
+  background-size: 100%;
+  border-radius: 4%;
+}
+
+.me3 {
+  text-align: center;
+  color: rgb(157, 227, 230);
+  font-size: 50px;
+}
+
+.me4 {
+  margin-top: 2%;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  color: rgb(221, 181, 70);
+  text-align: center;
+  font-size: 450%;
+  background-image: url("bg14.jpg");
+  background-size: 100%;
+  border-radius: 4%;
+}
+
+.me5 {
+  text-align: center;
+  color: rgb(157, 227, 230);
+  font-size: 50px;
+}
+
+.me6 {
+  text-align: center;
+  color: rgb(157, 227, 230);
+  font-size: 50px;
+}
+
+.me7 {
+  margin-top: 2%;
+  position: relative;
+  width: 100%;
+  height: 110vh;
+  color: rgb(221, 181, 70);
+  text-align: center;
+  font-size: 450%;
+  background-image: url("bg14.jpg");
+  background-size: 100%;
+  border-radius: 4%;
+}
+
+.me8 {
+  margin-left: 4%;
+  margin-right: 4%;
+  text-align: left;
+}
+
+.me9 {
+  font-size: 35%;
+  color: aliceblue;
+}
+
+.submit {
+  margin-left: 21%;
+}
+
+.me11 {
+  font-size: 30%;
+  color: aliceblue;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.me {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("bg5.jpg");
+  background-size: 100%;
+}
+
+nav {
+  display: flex;
+  width: 84%;
+  margin: auto;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav ul li a {
+  font-size: 130%;
+  text-decoration: none;
+  color: rgb(238, 20, 30);
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: rgb(25, 0, 255);
+}
+
+.me1 {
+  margin-left: 8%;
+  margin-top: 13%;
+}
+
+.me1 h1 {
+  font-size: 50px;
+  color: rgb(243, 243, 245);
+  margin-bottom: 20px;
+}
+
+span {
+  color: rgb(44, 65, 250);
+}
+
+.me1 p {
+  color: rgb(236, 238, 111);
+  font-size: 115%;
+  line-height: 22px;
+}
+
+.me1 a {
+  background: rgb(255, 0, 0);
+  padding: 10px 18px;
+  font-size: 105%;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(244, 242, 248);
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 10%;
+}
+
+.mypic {
+  width: 45%;
+  height: 80%;
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+}
+
+.mypic img {
+  height: 90%;
+  position: absolute;
+  left: 65%;
+  bottom: 0;
+  transform: translateX(-50%);
+  transition: bottom 1s, left 1s;
+}
+
+.mypic:hover .shape {
+  bottom: 110px;
+}
+
+.mypic:hover .my {
+  left: 50%;
+}
+
+.me2 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  color: rgb(221, 181, 70);
+  text-align: center;
+  font-size: 450%;
+  background-image: url("bg14.jpg");
+  background-size: 100%;
+  border-radius: 4%;
+}
+
+.me3 {
+  text-align: center;
+  color: rgb(157, 227, 230);
+  font-size: 50px;
+}
+
+.me4 {
+  margin-top: 2%;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  color: rgb(221, 181, 70);
+  text-align: center;
+  font-size: 450%;
+  background-image: url("bg14.jpg");
+  background-size: 100%;
+  border-radius: 4%;
+}
+
+.me5 {
+  text-align: center;
+  color: rgb(157, 227, 230);
+  font-size: 50px;
+}
+
+.me6 {
+  text-align: center;
+  color: rgb(157, 227, 230);
+  font-size: 50px;
+}
+
+.me7 {
+  margin-top: 2%;
+  position: relative;
+  width: 100%;
+  height: 110vh;
+  color: rgb(221, 181, 70);
+  text-align: center;
+  font-size: 450%;
+  background-image: url("bg14.jpg");
+  background-size: 100%;
+  border-radius: 4%;
+}
+
+.me8 {
+  margin-left: 4%;
+  margin-right: 4%;
+  text-align: left;
+}
+
+.me9 {
+  font-size: 35%;
+  color: aliceblue;
+}
+
+.submit {
+  margin-left: 21%;
+}
+
+.me11 {
+  font-size: 30%;
+  color: aliceblue;
+  text-align: center;
+  margin-bottom: 2%;
+}
