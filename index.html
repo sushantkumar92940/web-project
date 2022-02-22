@@ -92,41 +92,40 @@
       <div class="me7">
         <h1><u>CONTACT ME</u></h1>
         <div class="me8">
-          <form class="myform">
+          <form
+            action="https://docs.google.com/forms/d/e/1FAIpQLSdTqctDspX-oc1HslHC8QeqcQHaFbmN8Nk9qOPt3PmZoMGTgw/formResponse"
+            enctype="text/plain"
+            target="hidden_iframe"
+          >
             <div class="me9">
-              <label for="firstname"> Your First Name:* </label>
+              <label for="name">Name: </label>
               <input
+                id="name"
                 type="text"
-                name="fname"
+                name="entry.256516673"
                 size="30"
                 style="height: 20px"
                 required
-              />
-              <div class="lastname"></div>
-              <label for="lastname"> Your Last Name:* </label>
-              <input
-                type="text"
-                name="lname"
-                size="30"
-                style="height: 20px"
-                required
+                placeholder="Enter your Name"
               />
               <br /><br />
-              <label for="email">Email:* </label>
+
+              <label for="email">Email: </label>
               <input
+                id="email"
                 type="email"
-                name="email"
+                name="entry.82823400"
                 size="50"
                 style="height: 17px"
                 required
+                placeholder="Enter your Email"
               />
-              <hr />
-              <br />
-              <br />
+              <br /><br />
               <label for="comment">Comment: </label>
               <input
+                id="comment"
                 type="text"
-                name="comment"
+                name="entry.317023729"
                 size="70"
                 style="height: 240px"
               />
@@ -137,6 +136,11 @@
             </div>
             <div class="me10"></div>
           </form>
+          <iframe
+            id="hidden_iframe"
+            name="hidden_iframe"
+            style="display: none"
+          ></iframe>
         </div>
         <br />
         <div class="me11">Copyright © 2022 by Sushant Kumar</div>
